@@ -1,21 +1,20 @@
-# ПМ.02 — ревьюирование программных модулей
+# ПМ.02: Java Swing + ревью программных модулей
 
-Учебный прототип информационной панели университета «Синергия».
-Java 21, Swing, анимированные снежинки, консольные примеры, калькулятор, 14 тестов.
-Это демонстрационный учебный прототип, не официальная система университета.
+Учебный Java-проект для производственной практики. Демо образовательной организации, не официальный продукт университета.
 
-## Windows
-- run_windows.bat — графическое окно
-- run_windows.bat console — примеры println/возраста
-- run_windows.bat calc — 4 арифметических действия
-- run_windows.bat test — 14 автономных тестов
-- build_windows.bat — собрать без запуска
+**Предметная область:** информационная система для образовательной организации. **Технология:** Java 21 + Swing.
 
-## IDE
-Eclipse: File > Import > General > Existing Projects into Workspace, выберите F:\PM02\project.
-Apache NetBeans: File > Open Project, выберите F:\PM02\project (Maven). 
-Подготовка IDE не меняет требования к реальным скриншотам.
+- `run_windows.bat` — графическая информационная панель с анимированными снежинками;
+- `run_windows.bat console` — базовые упражнения Eclipse;
+- `run_windows.bat calc` — четыре арифметические операции;
+- `run_windows.bat test` — 14 автономных тестов без внешних библиотек;
+- `pom.xml` — сборка через Maven/NetBeans;
+- `src/edu/synergy/practice/ui/PracticeForm.form` — настоящая NetBeans JFrame Form (JLabel + JButton);
+- `src/edu/synergy/practice/ui/ReviewedComponent.java` — класс для демонстрации Eclipse Rename и Move;
+- `REVIEW.md` — проверка, измерения, риски и предложения по улучшению.
 
-## Подлинность отчёта
-Документы, подписи и даты в этом репозитории не хранятся.
-Архивы JDK/Eclipse/NetBeans скачиваются с официальных источников.
+Сборка на Windows: `build_windows.bat`. Java 21 необходима в PATH.
+
+Код и тесты публичны, **персональные документы, подписи и отчёт с личными данными на GitHub не публикуются**.
+
+Расположение на HOME-PC: `F:\PM02\project`.

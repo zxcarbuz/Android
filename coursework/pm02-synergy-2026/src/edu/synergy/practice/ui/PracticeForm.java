@@ -17,6 +17,12 @@ public class PracticeForm extends javax.swing.JFrame {
      */
     public PracticeForm() {
         initComponents();
+        setLocationRelativeTo(null);
+        jButton1.addActionListener(event -> javax.swing.JOptionPane.showMessageDialog(
+            this,
+            "Practice PM.02: code review, Swing interface and automated tests.",
+            "Project information",
+            javax.swing.JOptionPane.INFORMATION_MESSAGE));
     }
 
     /**
@@ -28,17 +34,34 @@ public class PracticeForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setText("University Synergy - PM.02");
+
+        jButton1.setText("About practice");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(73, 73, 73)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton1)
+                    .addComponent(jLabel1))
+                .addContainerGap(186, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addComponent(jLabel1)
+                .addGap(70, 70, 70)
+                .addComponent(jButton1)
+                .addContainerGap(139, Short.MAX_VALUE))
         );
 
         pack();
@@ -70,5 +93,7 @@ public class PracticeForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
