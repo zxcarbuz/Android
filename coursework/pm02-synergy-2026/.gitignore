@@ -1,0 +1,7 @@
+out/
+target/
+.metadata/
+.settings/org.eclipse.jdt.ui.prefs
+*.log
+source_files.txt
+nbproject/private/

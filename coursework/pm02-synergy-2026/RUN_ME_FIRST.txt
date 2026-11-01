@@ -1,0 +1,9 @@
+ПМ.02. ПРОЕКТ НА F:
+
+Проверка: F:\PM02\project\run_windows.bat test
+Запуск окна: F:\PM02\project\run_windows.bat
+Режимы: console / calc / test
+Созданная в NetBeans форма: src\edu\synergy\practice\ui\PracticeForm.form
+Скриншоты с Windows: F:\PM02\evidence
+Eclipse: F:\PM02\tools\eclipse
+NetBeans: F:\PM02\tools\netbeans

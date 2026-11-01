@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>PM02-Synergy-Practice</name>
+  <comment>Java Swing practice PM.02</comment>
+  <projects/>
+  <buildSpec><buildCommand><name>org.eclipse.jdt.core.javabuilder</name><arguments/></buildCommand></buildSpec>
+  <natures><nature>org.eclipse.jdt.core.javanature</nature></natures>
+</projectDescription>
